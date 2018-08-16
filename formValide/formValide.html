@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>表单验证插件</title>
+		<link rel="stylesheet" href="formValide.css">
+	</head>
+	<body>
+		<!--对于设置了v-check属性，都将进行验证-->
+		<div class="form-valide">
+			<input type="text" v-check="number" errorId="1" placeholder="请输入数字"/><!--数字验证-->
+			<span class="error-tip" errorId="1" ></span>
+			<input type="text" v-check="tel" errorId="2" placeholder="请输入电话号码"/><!--电话号码验证，号码设置显示格式-->
+			<span class="error-tip" errorId="2" ></span>
+			<input type="text" v-check="text" errorId="3" placeholder="请输入文本"/><!--普通文本-->
+			<span class="error-tip" errorId="3" ></span>
+			<input type="password" v-check="password" errorId="4" placeholder="请输入密码"/><!--密码-->
+			<span class="error-tip" errorId="4" ></span>
+			<input type="text" v-check="card" errorId="5" placeholder="请输入身份证"/><!--身份证-->
+			<span class="error-tip" errorId="5" ></span>
+			<input type="text" v-check="card" errorId="6" placeholder="请输入身份证"/><!--身份证-->
+			<span class="error-tip" errorId="6" ></span>
+			<!--<div class="form-submit v-submit" >登录</div>-->
+			<div class="click-test">点击校验</div>
+		</div>
+		<script src="formValide.js"></script>
+	</body>
+	
+</html>

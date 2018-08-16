@@ -1,0 +1,28 @@
+.form-valide{
+	
+}
+.form-valide input{
+	display: block;
+	padding: 0 10px;
+	margin-bottom: 10px;
+	width: 300px;
+	height: 40px;
+	border: 1px solid #999;
+	box-sizing: border-box;
+}
+
+.form-submit,
+.click-test{
+	display: block;
+	margin-bottom: 10px;
+	width: 300px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background: #e0e0e0;
+}
+.error-tip{
+	display: none;
+	color: red;
+	font-size: 12px;
+}
