@@ -1,0 +1,172 @@
+.timedate-wrapper {
+	position: absolute;
+	top: 40px;
+	width: 270px;
+	/*height: 320px;*/
+	border: 1px solid #c6c6c6;
+}
+.timedate-wrapper .timedate-main-wrapper .timedate-header-wrapper {
+	position: relative;
+	width: 270px;
+	height: 40px;
+	/*background-color: #c6c6c6;*/
+	background-color: #fff;
+}
+.timedate-wrapper .timedate-main-wrapper .timedate-header-wrapper .timedate-prev-y {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	/*background-color: pink;*/
+	background-color: #fff;
+	cursor: pointer;
+
+}
+.timedate-wrapper .timedate-main-wrapper .timedate-header-wrapper .timedate-prev-m {
+	position: absolute;
+	left: 40px;
+	top: 0;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	/*background-color: #abcdef;*/
+	background-color: #fff;
+	cursor: pointer;
+
+}
+.timedate-wrapper .timedate-main-wrapper .timedate-header-wrapper .timedate-select {
+	/*position: absolute;*/
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	cursor: pointer;
+
+}
+
+.timedate-wrapper .timedate-main-wrapper .timedate-header-wrapper .timedate-select .timedate-select-y {}
+
+.timedate-wrapper .timedate-main-wrapper .timedate-header-wrapper .timedate-select .timedate-select-m {}
+
+.timedate-wrapper .timedate-main-wrapper .timedate-header-wrapper .timedate-next-m {
+	position: absolute;
+	right: 40px;
+	top: 0;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	/*background-color: #abcdef;*/
+	background-color: #fff;
+	cursor: pointer;
+
+}
+.timedate-wrapper .timedate-main-wrapper .timedate-header-wrapper .timedate-next-y {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	/*background-color: pink;*/
+	background-color: #fff;
+	cursor: pointer;
+
+}
+.timedate-wrapper .timedate-main-wrapper .timedate-body-wrapper {
+	position: relative;
+	width: 270px;
+	height: 240px;
+	background-color: #fff;
+	border-top: 1px solid #c6c6c6;
+	border-bottom: 1px solid #c6c6c6;
+}
+.timedate-wrapper .timedate-main-wrapper .timedate-body-wrapper .timedate-week-wrapper {
+	position: relative;
+	width: 100%;
+	height: 42px;
+	margin: 0;
+	padding-left: 0;
+	text-align: center;
+}
+.timedate-wrapper .timedate-main-wrapper .timedate-body-wrapper .timedate-week-wrapper li {
+	display: inline-block;
+	width: 12.28%;
+	height: 42px;
+	line-height: 42px;
+	font-size: 14px;
+	text-align: center;
+}
+.timedate-wrapper .timedate-main-wrapper .timedate-body-wrapper .timedate-day-wrapper {
+	height: 33px;
+	margin: 0;
+	padding-left: 0;
+	text-align: center;
+}
+.timedate-wrapper .timedate-main-wrapper .timedate-body-wrapper .timedate-day-wrapper li {
+	display: inline-block;
+	height: 33px;
+	line-height: 33px;
+	font-size: 14px;
+	width: 14.28%;
+	cursor: pointer;
+
+}
+
+.timedate-wrapper .timedate-main-wrapper .timedate-body-wrapper .timedate-day-wrapper .cur {
+	color: #666;
+}
+
+.timedate-wrapper .timedate-main-wrapper .timedate-body-wrapper .timedate-day-wrapper .no-cur {
+	color: #d2d2d2;
+}
+
+.timedate-wrapper .timedate-main-wrapper .timedate-body-wrapper .timedate-day-wrapper .sel-cur {
+	background-color: #ffc000;
+}
+
+.timedate-wrapper .timedate-main-wrapper .timedate-body-wrapper .timedate-day-wrapper .hour-cur {
+	background-color: #f2f2f2;
+	color: #666;
+}
+
+.timedate-wrapper .timedate-ctrl-warpper {
+	position: relative;
+	width: 270px;
+	height: 40px;
+	background-color: #fff;
+	/*background-color: #abcdef;*/
+}
+
+.timedate-wrapper .timedate-ctrl-warpper div {
+	position: absolute;
+	top: 8px;
+	width: 50px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	border: 1px solid #ccc;
+	font-size: 14px;
+	cursor: pointer;
+
+}
+
+.timedate-wrapper .timedate-ctrl-warpper .timedate-clear {
+	right: 110px;
+}
+
+.timedate-wrapper .timedate-ctrl-warpper .timedate-now {
+	right: 60px;
+}
+
+.timedate-wrapper .timedate-ctrl-warpper .timedate-confrim {
+	right: 10px;
+}
+
+.hover-active {
+	color: #ffc000;
+}
